@@ -17,5 +17,5 @@ let booleanloggedIn = Boolean(loggedIn)
 console.log(booleanloggedIn);
 console.log(typeof booleanloggedIn);
 
-
+// can be converted to any type, string and etc
 
