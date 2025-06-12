@@ -5,7 +5,7 @@
  
  const newGame = new String('Mohsin-Ak-com')
 
-// now we are trying different methods for manipulating the string values 
+// now we are trying different properties and methods for manipulating the string values 
 
 console.log(newGame[0]);
 console.log(newGame.__proto__);
