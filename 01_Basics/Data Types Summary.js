@@ -22,7 +22,7 @@ const bigNumber = 32243145n
 let outsidetemp = null
 
 // Reference (Non primitive)
-// server provides reference of this type of data
+// server provides reference of original of this type of data
 // 1. Array (written in [])
 const heros = ['Khalid', 'Umar']
 // 2. Objects (written {})
@@ -40,3 +40,16 @@ const myFunc = function(){
 // all non-primitive are returned as Function while function as function object 
 
 // for further detailed reading //https://tc39.es/ecma262/#sec-source-text
+
+
+
+// ++++++++++++++++++++++++
+
+// Two types of memory
+// 1. Stack (For Primitive data)
+// 2. Heap (For Non Primitive)
+
+
+// Stack memory will provide you with the copy of Primitive data types, so if you change on in codes, it will not alter the original one in the Stack memory, as it only proides you with a copy
+
+// While in Heap memory, all the non primitive types provide the original reference value, so cahnging it will alter the original one in memory
